@@ -25,6 +25,24 @@
 .bookingimg{
     z-index: -99;
 }
+.bothbgimg{
+    background-image: url('/public/Ellipse\ 107.jpg');
+}
+.aboutusimage{
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    z-index: 999;
+}
+.aboutusdots{
+    z-index: -999;
+}
+.learnmorebutton button{
+    filter: drop-shadow(2px 3px 8px #89DB7B);
+    font-weight: bold;
+}
+.ellipseimg{
+    z-index: -99;
+}
 /* @media only screen and (max-width:1023px){
     .navbar-menu-div{
         display: flex;

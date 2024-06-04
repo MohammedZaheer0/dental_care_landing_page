@@ -3,6 +3,7 @@ import Button from './Button';
 import HomeData from './HomeData';
 import ServiceSection from './ServiceSection';
 import AboutUs from './AboutUs';
+import WhyChooseUs from './WhyChooseUs';
 
 
 const Home = () => {
@@ -47,8 +48,13 @@ const Home = () => {
             </div>
             
         </div> 
+        
         <ServiceSection/>
+        <div className='relative'>
+        <img src="Ellipse_107.png" alt="ellipse" className='absolute h-full ellipseimg right-0 top-0' />
         <AboutUs/>
+        <WhyChooseUs/>
+        </div>
     </>
   )
 }
