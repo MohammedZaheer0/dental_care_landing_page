@@ -1,0 +1,38 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom CSS here */
+
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+.bg-image{
+    background-image: url('/public/Rectangle_img.jpg');
+}
+.home-cards{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: #fff;
+}
+.bookingclass{
+    z-index: 100;
+}
+.bookingimg{
+    z-index: -99;
+}
+/* @media only screen and (max-width:1023px){
+    .navbar-menu-div{
+        display: flex;
+    }
+    .navbar-div{
+        display: none;
+    }
+    .original-navbar{
+        display: none;
+    }
+} */
