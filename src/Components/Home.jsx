@@ -4,6 +4,7 @@ import HomeData from './HomeData';
 import ServiceSection from './ServiceSection';
 import AboutUs from './AboutUs';
 import WhyChooseUs from './WhyChooseUs';
+import Testimonials from './Testimonials';
 
 
 const Home = () => {
@@ -15,18 +16,18 @@ const Home = () => {
                 
                 
                 <div className='w-[80%]  lg:w-[80%] mx-auto justify-start items-start mb-[30px] sm:mb-[50px]'>
-                    <h1 className='lg:text-3xl xl:text-5xl sm:text-3xl 3xl text-2xl font-bold sm:mb-[20px] mb-[10px] sm:mt-[-10%]'>Dental Excellence Starts Here: Your Guide to a Brighter, Healthier Smile</h1>
+                    <h1 className='lg:text-3xl xl:text-5xl sm:text-3xl 3xl text-2xl font-bold sm:mb-[25px] mb-[25px] sm:mt-[-10%]'>Dental Excellence Starts Here: Your Guide to a Brighter, Healthier Smile</h1>
 
                     <div className='relative'>
                     <Button text='Booking Now' customClass="my-[40px] sm:my-[25px] font-bold bookingclass"/>
-                    <img src="Subtract.jpg" alt="bookingimg" className='absolute sm:top-[-10%] md:left-[30%] lg:top-[10%] xl:left-[20%]  sm:left-[20%] left-[55%] sm:top-[-7%] top-0 bookingimg h-24 ' />
+                    <img src="Subtract.jpg" alt="bookingimg" className='absolute sm:top-[-10%] md:left-[30%] lg:top-[10%] xl:left-[20%]  sm:left-[20%] left-[55%] sm:top-[-7%] top-[1%] bookingimg h-24 ' />
                 </div>  
                 </div>
 
 
-                <div className='bg-image w-[80%] mx-auto bg-cover h-[100%]  mt-[20px] lg:mt-0 sm:mt-[40px]'>
+                <div className='bg-image w-[80%] mx-auto bg-cover sm:h-[100%] h-auto mt-[20px] lg:mt-0 sm:mt-[40px]'>
                 
-                    <img src="good-looking-smiling-woman-looking-friendly-front 1.png"  alt="good-looking-smiling-woman" className='w-[80%] mt-[-15%] z-0'/>
+                    <img src="good-looking-smiling-woman-looking-friendly-front 1.png"  alt="good-looking-smiling-woman" className='w-[80%] mt-[-15%] z-0 filterclass' />
                 </div>
             </div>
 
@@ -55,6 +56,7 @@ const Home = () => {
         <AboutUs/>
         <WhyChooseUs/>
         </div>
+        <Testimonials/>
     </>
   )
 }

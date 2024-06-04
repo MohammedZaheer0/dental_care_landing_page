@@ -13,6 +13,11 @@
 }
 .bg-image{
     background-image: url('/public/Rectangle_img.jpg');
+    background-size: cover;
+    /* height: auto; */
+}
+.filterclass{
+    filter: blur();
 }
 .home-cards{
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
@@ -34,23 +39,49 @@
     z-index: 999;
 }
 .aboutusdots{
-    z-index: -999;
+    z-index: -99;
 }
 .learnmorebutton button{
     filter: drop-shadow(2px 3px 8px #89DB7B);
     font-weight: bold;
 }
 .ellipseimg{
-    z-index: -99;
+    z-index: -999;
 }
-/* @media only screen and (max-width:1023px){
-    .navbar-menu-div{
-        display: flex;
-    }
-    .navbar-div{
-        display: none;
-    }
-    .original-navbar{
-        display: none;
-    }
-} */
+
+.testimonailsbgimg{
+    background-image: url('/public/GroupMap.png');
+    /* opacity: 0.8; */
+    z-index: -999;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Swiper Js */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  /* .testhw{
+    height: 50px;
+    width: 50px;
+  } */
+  

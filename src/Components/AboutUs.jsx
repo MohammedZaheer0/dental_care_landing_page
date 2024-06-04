@@ -9,7 +9,7 @@ const AboutUs = () => {
 
             <div className='sm:w-[80]% mx-auto relative'>
                 <img src="AboutUsImg.png" alt="aboutus" className='bg-[#FFB6C1] aboutusimage' />
-                <img src="AboutUsDots.jpg" alt="" className='absolute bottom-[-17%] aboutusdots right-[5%]' />
+                <img src="AboutUsDotted.png" alt="" className='absolute bottom-[-17%] aboutusdots right-[5%]' />
             </div>
 
 
