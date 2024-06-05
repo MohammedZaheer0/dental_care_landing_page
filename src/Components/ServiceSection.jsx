@@ -8,7 +8,7 @@ const ServiceSection = () => {
             title: 'Teeth Whitening',
             content : 'Cosmetic treatment to enhance the whiteness of teeth',
             btn : 'Read More',
-            img : 'dental1.png'
+            img : 'dental4.png'
         },
         {
             id:2,
@@ -70,7 +70,7 @@ const ServiceSection = () => {
                                         <h2 className='w-[70%] font-bold text-2xl py-1'>{values.title}</h2>
                                         <p className='w-[55%] pt-1 pb-9'>{values.content}</p>
                                         <button className='my-3 bg-[white] px-7 cursor-pointer font-bold text-[15px] py-3 rounded-full absolute bottom-[1%]'>{values.btn}</button>
-                                        <img src={values.img} alt="dental_image" className='absolute lg:h-[55%] xl:h-full h-[70%] sm:h-[80%] md:h-[65%] right-0 bottom-0'/>
+                                        <img src={values.img} alt="dental_image" className='absolute lg:h-[50%] xl:h-full h-[60%] sm:h-[80%] md:h-[55%] right-0 bottom-0'/>
                                 </div>
                             )
                         })

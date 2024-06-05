@@ -4,7 +4,7 @@ import Button from './Button'
 const AboutUs = () => {
   return (
     <>
-        <div className='w-[80%] mx-auto grid md:grid-cols-2 grid-cols-1 lg:my-[180px] my-[80px] sm:my-[100px]  items-start'>
+        <div className='w-[80%] mx-auto grid md:grid-cols-2 grid-cols-1 md:items-center lg:my-[180px] my-[80px] sm:my-[100px]  items-start'>
 
 
             <div className='sm:w-[80]% mx-auto relative'>

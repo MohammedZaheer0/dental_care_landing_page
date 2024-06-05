@@ -12,7 +12,7 @@ const Footer = () => {
                 
                 <div id='footerdiv'>
                     <h2 className='font-bold pb-4'>Company</h2>
-                    <p>Home</p>
+                    <p className='text-[#FE5E54]'>Home</p>
                     <p>Services</p>
                     <p>About Us</p>
                     <p>Why Choose Us</p>
