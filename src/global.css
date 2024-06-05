@@ -11,19 +11,19 @@
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
+
+/* Home Section */
 .bg-image{
     background-image: url('/public/Rectangle_img.jpg');
     background-size: cover;
-    /* height: auto; */
-}
-.filterclass{
-    filter: blur();
 }
 .home-cards{
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     background-color: #fff;
 }
+
+/* Home Booking Now Button */
 .bookingclass{
     z-index: 100;
 }
@@ -33,6 +33,8 @@
 .bothbgimg{
     background-image: url('/public/Ellipse\ 107.jpg');
 }
+
+/* AboutUs Section */
 .aboutusimage{
     border-top-right-radius: 20%;
     border-bottom-left-radius: 20%;
@@ -45,13 +47,16 @@
     filter: drop-shadow(2px 3px 8px #89DB7B);
     font-weight: bold;
 }
+
+/* Ellipse Img */
 .ellipseimg{
     z-index: -999;
 }
 
+
+/* Testimonials Section */
 .testimonailsbgimg{
     background-image: url('/public/GroupMap.png');
-    /* opacity: 0.8; */
     z-index: -999;
     background-position: center;
     background-size: contain;
@@ -75,11 +80,16 @@
     align-items: center;
   }
 
+
+  /* CTA Section */
   .outerctasection{
     box-shadow: 1px 1px 10px 3px lightgray,
     -1px -0px 4px 1px lightgray;
     border-radius: 50px;
   }
+
+
+  /* Footer Classes */
   #footerdiv p,#footerdiv1 p,
   #footerdiv2 p, #footerdiv3 p{
     padding-bottom: 8px;
@@ -89,14 +99,3 @@
   #footerdiv2 p:hover, #footerdiv3 p:hover{
     color: #FE5E54;
   }
-  /* .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  } */
-  /* .testhw{
-    height: 50px;
-    width: 50px;
-  } */
-  

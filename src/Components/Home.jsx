@@ -11,6 +11,7 @@ import Footer from './Footer';
 const Home = () => {
   return (
     <>
+        {/* Home Section */}
         <div className="lg:w-[80%] mx-auto lg:my-[30px] mt-[50px] sm:mt-[90px] mb-[50px]">
 
             <div className='grid lg:grid-cols-[55%_45%] md:grid-cols-[60%_40%] grid-cols-1 md:pt-[50px] sm:pt-[70px] lg:pt-[7rem] pt-[10px] text-center sm:text-left'>
@@ -51,17 +52,25 @@ const Home = () => {
             
         </div> 
         
+        {/* Services Section */}
         <ServiceSection/>
         <div className='relative'>
         <img src="Ellipse_107.png" alt="ellipse" className='absolute h-full ellipseimg right-0 top-0' />
+        
+        {/* About Section */}                    
         <AboutUs/>
+        {/* WhuChooseUS Section */}
         <WhyChooseUs/>
         </div>
+
+        {/* Testimonials Section */}
         <Testimonials/>
+        {/* CTA Section */}
         <CTASection/>
+        {/* Footer Section */}
         <Footer/>
     </>
   )
 }
 
-export default Home
+export default Home;

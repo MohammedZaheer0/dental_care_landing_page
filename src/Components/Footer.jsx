@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
         <div className='w-[80%] mx-auto mb-[30px]'>
-            <h2 className='text-[25px] col-span-1 font-bold sm:mb-[0] mb-[1rem] py-[20px] absolute lg:static top-6 left-8'>
+            <h2 className='text-[25px] font-bold  py-[20px] text-center sm:text-left'>
             57<span className='text-[#90EE90]'>D</span>entcare
             </h2>
 
@@ -52,13 +52,13 @@ const Footer = () => {
 
                     <h2 className='font-bold pb-4'>Follow Us</h2>
                     <div >
-                    <i class="fa-brands fa-facebook text-2xl mr-[10px]"></i>
-                    <i class="fa-brands fa-twitter text-2xl mr-[10px] cursor-pointer"></i>
-                    <i class="fa-brands fa-youtube text-2xl mr-[10px] cursor-pointer"></i>
-                    <i class="fa-brands fa-pinterest text-2xl mr-[10px] cursor-pointer"></i>
-                    <i class="fa-brands fa-linkedin text-2xl mr-[10px] cursor-pointer"></i>
-                    <i class="fa-brands fa-tiktok text-2xl mr-[10px] cursor-pointer"></i>
-                    <i class="fa-brands fa-instagram text-2xl mr-[10px] cursor-pointer"></i>
+                    <i className="fa-brands fa-facebook text-2xl mr-[10px]"></i>
+                    <i className="fa-brands fa-twitter text-2xl mr-[10px] cursor-pointer"></i>
+                    <i className="fa-brands fa-youtube text-2xl mr-[10px] cursor-pointer"></i>
+                    <i className="fa-brands fa-pinterest text-2xl mr-[10px] cursor-pointer"></i>
+                    <i className="fa-brands fa-linkedin text-2xl mr-[10px] cursor-pointer"></i>
+                    <i className="fa-brands fa-tiktok text-2xl mr-[10px] cursor-pointer"></i>
+                    <i className="fa-brands fa-instagram text-2xl mr-[10px] cursor-pointer"></i>
                     </div>
                 </div>
 
