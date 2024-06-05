@@ -54,7 +54,11 @@
     /* opacity: 0.8; */
     z-index: -999;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    width: 80% !important;
+}
+.testimonialinnervid{
+    width: 90% !important;
 }
 
 /* Swiper Js */
