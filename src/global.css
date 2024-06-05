@@ -55,11 +55,8 @@
     z-index: -999;
     background-position: center;
     background-size: contain;
-    width: 80% !important;
 }
-.testimonialinnervid{
-    width: 90% !important;
-}
+
 
 /* Swiper Js */
 .swiper {
@@ -77,7 +74,21 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+  .outerctasection{
+    box-shadow: 1px 1px 10px 3px lightgray,
+    -1px -0px 4px 1px lightgray;
+    border-radius: 50px;
+  }
+  #footerdiv p,#footerdiv1 p,
+  #footerdiv2 p, #footerdiv3 p{
+    padding-bottom: 8px;
+    cursor: pointer;
+  }
+  #footerdiv p:hover,#footerdiv1 p:hover,
+  #footerdiv2 p:hover, #footerdiv3 p:hover{
+    color: #FE5E54;
+  }
   /* .swiper-slide img {
     display: block;
     width: 100%;

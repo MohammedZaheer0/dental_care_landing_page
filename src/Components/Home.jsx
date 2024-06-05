@@ -5,7 +5,8 @@ import ServiceSection from './ServiceSection';
 import AboutUs from './AboutUs';
 import WhyChooseUs from './WhyChooseUs';
 import Testimonials from './Testimonials';
-
+import CTASection from './CTASection';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -57,6 +58,8 @@ const Home = () => {
         <WhyChooseUs/>
         </div>
         <Testimonials/>
+        <CTASection/>
+        <Footer/>
     </>
   )
 }
