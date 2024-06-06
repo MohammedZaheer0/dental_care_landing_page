@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from './Button';
 
 const CTASection = () => {
   return (
@@ -26,7 +25,6 @@ const CTASection = () => {
                                 <button type='submit'><span className='border-[2px] border-[#89DB7B] p-4 px-7 rounded-full bg-[#89DB7B] hover:bg-[white] duration-300 lg:inline-block cursor-pointer w-[100%]'>Get a Free Consultation<i className="fa-solid fa-arrow-right rotate-45 ml-[5px]"></i></span></button>
                         </div>
                             </form>
-                            {/* <Button text='Get a Free Consultation' ctaCustomClass='px-[30px]'/> */}
                             </div>               
                 </div>
             </div>
