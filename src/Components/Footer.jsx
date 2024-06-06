@@ -52,13 +52,13 @@ const Footer = () => {
 
                     <h2 className='font-bold pb-4'>Follow Us</h2>
                     <div >
-                    <i className="fa-brands fa-facebook text-2xl mr-[10px]"></i>
-                    <i className="fa-brands fa-twitter text-2xl mr-[10px] cursor-pointer"></i>
-                    <i className="fa-brands fa-youtube text-2xl mr-[10px] cursor-pointer"></i>
-                    <i className="fa-brands fa-pinterest text-2xl mr-[10px] cursor-pointer"></i>
-                    <i className="fa-brands fa-linkedin text-2xl mr-[10px] cursor-pointer"></i>
-                    <i className="fa-brands fa-tiktok text-2xl mr-[10px] cursor-pointer"></i>
-                    <i className="fa-brands fa-instagram text-2xl mr-[10px] cursor-pointer"></i>
+                    <i className="fa-brands fa-facebook text-2xl mr-[10px] cursor-pointer hover:text-[#FE5E54]"></i>
+                    <i className="fa-brands fa-twitter text-2xl mr-[10px] cursor-pointer hover:text-[#FE5E54]"></i>
+                    <i className="fa-brands fa-youtube text-2xl mr-[10px] cursor-pointer hover:text-[#FE5E54]"></i>
+                    <i className="fa-brands fa-pinterest text-2xl mr-[10px] cursor-pointer hover:text-[#FE5E54]"></i>
+                    <i className="fa-brands fa-linkedin text-2xl mr-[10px] cursor-pointer hover:text-[#FE5E54]"></i>
+                    <i className="fa-brands fa-tiktok text-2xl mr-[10px] cursor-pointer hover:text-[#FE5E54]"></i>
+                    <i className="fa-brands fa-instagram text-2xl mr-[10px] cursor-pointer hover:text-[#FE5E54]"></i>
                     </div>
                 </div>
 
