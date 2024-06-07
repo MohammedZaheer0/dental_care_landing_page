@@ -3,11 +3,23 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     let [open,setOpen] =  useState(false);
+    const [fix,setFix]  = useState(false);
+
+    function setFixed(){
+        if(window.scrollY >=0){
+            setFix(true);
+        }
+        else{
+            setFix(false)
+        }
+    }
+
+    window.addEventListener('scroll',setFix)
 
     return(
         <>
-
-        <div className=' lg:max-w-[85%] max-w-[100%] mx-auto py-[1.5rem] items-center text-center grid lg:grid-cols-5 grid-cols-1 font-bold lg:h-auto z-[1]' id=''>
+        <div className={fix ? 'navbardiv sticky' : 'navbardiv'}>
+        <div className=' lg:max-w-[95%] max-w-[100%] mx-auto py-[1.5rem] items-center text-center grid lg:grid-cols-5 grid-cols-1 font-bold lg:h-auto z-[1]' id=''>
 
             <h2 className='text-[25px] col-span-1  sm:mb-[0] mb-[1rem] absolute lg:static top-6 left-8'>
             57<span className='text-[#90EE90]'>D</span>entcare
@@ -41,6 +53,7 @@ const Navbar = () => {
 
         <button className='col-span-1'><span className='border-[2px] border-[#89DB7B] p-4 rounded-full hover:bg-[#89DB7B] duration-300 hidden lg:inline-block cursor-pointer'>Contact Us <i className="fa-solid fa-arrow-right rotate-45 ml-[5px]"></i></span></button>
 
+        </div>
         </div>
         </>        
     )

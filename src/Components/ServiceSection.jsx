@@ -58,7 +58,7 @@ const ServiceSection = () => {
 
   return (
     <>
-        <section className='w-[80%] mx-auto my-[120px]'>
+        <section className='lg:max-w-[80%] max-w-[95%] mx-auto my-[120px]'>
             <h1 className='text-[#89DB7B] font-bold text-center'>Satisfy Solution</h1>
             <h2 className='font-bold text-center my-[10px] sm:text-3xl text-2xl'>The Best Dental Treatment</h2>
 
@@ -67,8 +67,8 @@ const ServiceSection = () => {
                         ServiceSectionData.map((values,index) => {
                             return(
                                 <div key={index} className={`relative h-full  px-5 py-10 rounded-2xl ${uniqueBgColor[index]}`}>
-                                        <h2 className='w-[70%] font-bold text-2xl py-1'>{values.title}</h2>
-                                        <p className='w-[55%] pt-1 pb-9'>{values.content}</p>
+                                        <h2 className='max-w-[70%] font-bold text-2xl py-1'>{values.title}</h2>
+                                        <p className='max-w-[55%] pt-1 pb-9'>{values.content}</p>
                                         <button className='my-3 bg-[white] px-7 cursor-pointer font-bold text-[15px] py-3 rounded-full absolute bottom-[1%]'>{values.btn}</button>
                                         <img src={values.img} alt="dental_image" className='absolute lg:h-[50%] xl:h-full h-[60%] sm:h-[80%] md:h-[55%] right-0 bottom-0'/>
                                 </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-        <div className='w-[80%] mx-auto mb-[30px]'>
+        <div className='max-w-[95%] mx-auto mb-[30px]'>
             <h2 className='text-[25px] font-bold  py-[20px] text-center sm:text-left'>
             57<span className='text-[#90EE90]'>D</span>entcare
             </h2>
@@ -45,7 +45,7 @@ const Footer = () => {
                     <h2 className='font-bold pb-4'>Newsletter</h2>
                     <p>Stay Updated with our Latest News </p>
                     
-                    <div className='border-[1px] border-[gray] rounded-full w-[100%]  p-2 mb-[20px] grid grid-cols-[80%_20%] justify-between items-center'>
+                    <div className='border-[1px] border-[gray] rounded-full max-w-[100%]  p-2 mb-[20px] grid grid-cols-[80%_20%] justify-between items-center'>
                         <input type="text" className='outline-none px-[20px]' placeholder='Your Email'/>
                         <i className="fa-solid fa-arrow-right bg-[#89DB7B] px-3 py-2 text-center rounded-full ml-[5px]"></i>
                     </div>

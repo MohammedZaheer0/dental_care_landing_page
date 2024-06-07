@@ -4,9 +4,9 @@ import React from 'react';
 const WhyChooseUs = () => {
   return (
     <>
-             <div className='w-[80%] mx-auto grid md:grid-cols-2 grid-cols-1 md:items-center lg:mt-[250px] my-[80px] sm:my-[100px]  items-start'>
+             <div className='max-w-[95%] mx-auto grid md:grid-cols-2 grid-cols-1 md:items-center lg:mt-[250px] my-[80px] sm:my-[100px]  items-start'>
 
-            <div className='sm:w-[80%] mx-auto py-5 mt-[20px] sm:mt-[10px] md:mt-[0] '>
+            <div className='sm:max-w-[80%] mx-auto py-5 mt-[20px] sm:mt-[10px] md:mt-[0] '>
                 <h3 className='font-bold text-[#89DB7B] mb-[10px]'>Why Choose Us</h3>
                 <h2 className='font-bold text-2xl mb-[30px]'>Comprehensive Dental Services</h2>
 
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
             </div>
 
 
-            <div className='sm:w-[80]% mx-auto'>
+            <div className='sm:max-w-[80]% mx-auto'>
                 <img src="whychooseusframe.jpg" alt="whychooseusimg" />
             </div>
 

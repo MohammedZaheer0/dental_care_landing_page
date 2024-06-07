@@ -12,6 +12,13 @@
     font-family: "Raleway", sans-serif;
 }
 
+
+/* Navbar */
+.navbardiv .sticky{
+    background-color: rgb(29, 249, 176);
+    transition: .3s ease-in-out;
+}
+
 /* Home Section */
 .bg-image{
     background-image: url('/public/Rectangle_img.jpg');
