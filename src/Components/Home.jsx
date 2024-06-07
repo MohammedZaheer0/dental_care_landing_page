@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
         {/* Home Section */}
-        <div className="lg:max-w-[85%] xl:max-w-[80%] sm:max-w-[95%] mx-auto lg:my-[30px] mt-[50px] sm:mt-[90px] mb-[50px]">
+        <div className="lg:max-w-[85%] xl:max-w-[80%] sm:max-w-[95%] mx-auto lg:my-[30px] mt-[50px] sm:mt-[90px] lg:mt-[100px] mb-[50px]">
 
             <div className='grid lg:grid-cols-[55%_45%] md:grid-cols-[60%_40%] grid-cols-1 md:pt-[50px] sm:pt-[70px] lg:pt-[7rem] pt-[10px] text-center sm:text-left'>
                 

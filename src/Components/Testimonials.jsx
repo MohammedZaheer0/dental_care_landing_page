@@ -24,7 +24,7 @@ const Testimonials = () => {
       >
         <SwiperSlide className=''>
 
-        <div className='bg-[lightblue]  h-screen py-[45px] '>
+        <div className='bg-[lightblue]  py-[45px] '>
             <h3 className='text-center'>Testimonials</h3>
             <h1 className='text-center py-[10px] font-bold text-2xl'>What People Say About Us</h1>
 
@@ -45,7 +45,7 @@ const Testimonials = () => {
         
         <SwiperSlide className=''>
 
-<div className='bg-[lightblue]  h-screen py-[45px] '>
+<div className='bg-[lightblue]  py-[45px] '>
     <h3 className='text-center'>Testimonials</h3>
     <h1 className='text-center py-[10px] font-bold text-2xl'>What People Say About Us</h1>
 
