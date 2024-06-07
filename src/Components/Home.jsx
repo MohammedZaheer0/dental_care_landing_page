@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
         {/* Home Section */}
-        <div className="lg:max-w-[80%] mx-auto lg:my-[30px] mt-[50px] sm:mt-[90px] mb-[50px]">
+        <div className="lg:max-w-[85%] sm:max-w-[95%] mx-auto lg:my-[30px] mt-[50px] sm:mt-[90px] mb-[50px]">
 
             <div className='grid lg:grid-cols-[55%_45%] md:grid-cols-[60%_40%] grid-cols-1 md:pt-[50px] sm:pt-[70px] lg:pt-[7rem] pt-[10px] text-center sm:text-left'>
                 
@@ -36,7 +36,7 @@ const Home = () => {
 
 
 
-            <div className='w-80% mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-1 gap-x-12 gap-y-14 mt-[5rem] md:mt-[-2%] z-40 bg-[white]'>
+            <div className='w-[100%] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-1 gap-x-12 gap-y-14 mt-[5rem] md:mt-[-2%] z-40 bg-[white]'>
                 {HomeData.map((value,index) => {
                     return(
                             <div key={index} className='max-w-[95%] mx-auto'>

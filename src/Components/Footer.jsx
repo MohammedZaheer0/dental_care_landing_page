@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-        <div className='max-w-[95%] mx-auto mb-[30px]'>
+        <div className='max-w-[95%] sm:max-w-[80%] mx-auto mb-[30px]'>
             <h2 className='text-[25px] font-bold  py-[20px] text-center sm:text-left'>
             57<span className='text-[#90EE90]'>D</span>entcare
             </h2>

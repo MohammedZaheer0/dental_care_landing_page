@@ -58,11 +58,11 @@ const ServiceSection = () => {
 
   return (
     <>
-        <section className='lg:max-w-[80%] max-w-[95%] mx-auto my-[120px]'>
+        <section className='lg:max-w-[85%] max-w-[95%]  mx-auto my-[120px]'>
             <h1 className='text-[#89DB7B] font-bold text-center'>Satisfy Solution</h1>
             <h2 className='font-bold text-center my-[10px] sm:text-3xl text-2xl'>The Best Dental Treatment</h2>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 sm:gap-8 mt-[50px]'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 sm:gap-10 mt-[50px]'>
                     {
                         ServiceSectionData.map((values,index) => {
                             return(

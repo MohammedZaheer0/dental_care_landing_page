@@ -4,7 +4,7 @@ const CTASection = () => {
   return (
     <>  
             <div className='my-[20px] py-[50px]'>
-                <div className='outerctasection max-w-[95%] mx-auto grid md:grid-cols-[40%_60%] grid-cols-1 justify-center items-center' >
+                <div className='outerctasection max-w-[95%] lg:max-w-[80%] mx-auto grid md:grid-cols-[40%_60%] grid-cols-1 justify-center items-center' >
                         <div className='max-w-[100%]'>
                             <img src="contactImg.png" alt="contactusimg" className='max-w-[100%] rounded-tr-3xl md:rounded-none ctaimage'/>
                         </div>
