@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return(
         <>
-        <div className={fix ? 'navbardiv sticky' : 'navbardiv'}>
+        <div className={fix ? 'navbardiv fixed' : 'navbardiv'}>
         <div className=' lg:max-w-[95%] max-w-[100%] mx-auto py-[1.5rem] items-center text-center grid lg:grid-cols-5 grid-cols-1 font-bold lg:h-auto z-[1]' id=''>
 
             <h2 className='text-[25px] col-span-1  sm:mb-[0] mb-[1rem] absolute lg:static top-6 left-8'>

@@ -14,7 +14,7 @@
 
 
 /* Navbar */
-.navbardiv .sticky{
+.navbardiv .fixed{
     background-color: rgb(29, 249, 176);
     transition: .3s ease-in-out;
 }
