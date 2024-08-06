@@ -3,22 +3,17 @@
 @import 'tailwindcss/utilities';
 
 /* Your custom CSS here */
-
-
 *{
     padding: 0; 
     margin: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
-
-
 /* Navbar */
 .navbardiv .fixed{
     background-color: rgb(29, 249, 176);
     transition: .3s ease-in-out;
 }
-
 /* Home Section */
 .bg-image{
     background-image: url('/public/Rectangle_img.jpg');
@@ -29,7 +24,6 @@
     border-radius: 20px;
     background-color: #fff;
 }
-
 /* Home Booking Now Button */
 .bookingclass{
     z-index: 100;
@@ -40,7 +34,6 @@
 .bothbgimg{
     background-image: url('/public/Ellipse\ 107.jpg');
 }
-
 /* AboutUs Section */
 .aboutusimage{
     border-top-right-radius: 20%;
@@ -54,13 +47,10 @@
     filter: drop-shadow(2px 3px 8px #89DB7B);
     font-weight: bold;
 }
-
 /* Ellipse Img */
 .ellipseimg{
     z-index: -999;
 }
-
-
 /* Testimonials Section */
 .testimonailsbgimg{
     background-image: url('/public/GroupMap.png');
@@ -68,34 +58,26 @@
     background-position: center;
     background-size: contain;
 }
-
-
 /* Swiper Js */
 .swiper {
     width: 100%;
     height: 100%;
   }
-  
   .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-
   /* CTA Section */
   .outerctasection{
     box-shadow: 1px 1px 10px 3px lightgray,
     -1px -0px 4px 1px lightgray;
     border-radius: 50px;
   }
-
-
   /* Footer Classes */
   #footerdiv p,#footerdiv1 p,
   #footerdiv2 p, #footerdiv3 p{

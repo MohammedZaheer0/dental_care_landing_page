@@ -16,7 +16,7 @@ const Navbar = () => {
             <i className={`fa-solid ${open ? 'fa-xmark' : 'fa-bars'}`}></i>
             </div>
 
-        <ul className={`flex lg:flex-row flex-wrap flex-col lg:mb-[0] mb-[1.5rem] bg-[#FE5E54] lg:bg-[white] items-center pb-[12] absolute lg:static lg:z-auto z-[-1] z-[99] justify-center w-full lg:w-auto transition-all  duration-400 ease-in lg:pb-0 justify-between col-span-3 font-semibold ${open ? 'top-20 lg:py-[0px] py-[120px]  opacity-100' : 'top-[-500px] lg:opacity-100 opacity-0 '}`}>
+        <ul className={`flex lg:flex-row flex-wrap flex-col lg:mb-[0] mb-[1.5rem] bg-[#FE5E54] lg:bg-[white] items-center pb-[12] absolute lg:static lg:z-auto z-[99] w-full lg:w-auto transition-all  duration-400 ease-in lg:pb-0 justify-between col-span-3 font-semibold ${open ? 'top-20 lg:py-[0px] py-[120px]  opacity-100' : 'top-[-500px] lg:opacity-100 opacity-0 '}`}>
             <NavLink  activeclass='active' to='/' className='lg:py-1 py-3 hover:text-[gray]'>
                 <li>Home</li>
             </NavLink>

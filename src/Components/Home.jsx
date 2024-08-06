@@ -22,7 +22,7 @@ const Home = () => {
 
                     <div className='relative'>
                     <Button text='Booking Now' customClass="my-[40px] sm:my-[25px] font-bold bookingclass"/>
-                    <img src="Subtract.jpg" alt="bookingimg" className='absolute sm:top-[-10%] md:left-[30%] lg:top-[10%] xl:left-[20%]  sm:left-[20%] left-[55%] sm:top-[-7%] top-[1%] bookingimg h-24 ' />
+                    <img src="Subtract.jpg" alt="bookingimg" className='absolute md:left-[30%] lg:top-[10%] xl:left-[20%]  sm:left-[20%] left-[55%] sm:top-[-7%] top-[1%] bookingimg h-24 ' />
                 </div>  
                 </div>
 
@@ -32,8 +32,6 @@ const Home = () => {
                     <img src="good-looking-smiling-woman-looking-friendly-front 1.png"  alt="good-looking-smiling-woman" className='max-w-[95%] mt-[-15%] z-0 filterclass' />
                 </div>
             </div>
-
-
 
 
             <div className='w-[100%] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-1 gap-x-12 gap-y-14 mt-[5rem] md:mt-[-2%] z-40 bg-[white]'>
@@ -54,6 +52,7 @@ const Home = () => {
         
         {/* Services Section */}
         <ServiceSection/>
+        
         <div className='relative'>
         <img src="Ellipse_107.png" alt="ellipse" className='absolute h-full ellipseimg right-0 top-0' />
         

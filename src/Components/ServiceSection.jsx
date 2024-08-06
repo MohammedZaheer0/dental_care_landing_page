@@ -1,7 +1,5 @@
 import React from 'react'
-
 const ServiceSection = () => {
-
     let ServiceSectionData = [
         {
             id:1,
@@ -46,7 +44,6 @@ const ServiceSection = () => {
             img : 'dental5.png'
         },
     ]
-
     const uniqueBgColor = [
         'bg-[#FFD580]',
         'bg-[#FFB6C1]',
@@ -55,7 +52,6 @@ const ServiceSection = () => {
         'bg-[#ADD8E6]',
         'bg-[#FFD580]',
     ]
-
   return (
     <>
         <section className='lg:max-w-[85%] xl:max-w-[80%] max-w-[95%]  mx-auto my-[120px]'>
@@ -80,5 +76,4 @@ const ServiceSection = () => {
     </>
   )
 }
-
 export default ServiceSection;

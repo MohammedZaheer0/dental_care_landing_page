@@ -25,5 +25,4 @@ let HomeData = [
     },
 
 ]
-
 export default HomeData;
